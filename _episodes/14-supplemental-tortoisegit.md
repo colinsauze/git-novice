@@ -1,5 +1,5 @@
 ---
-title: Using Git from TortoiseGit
+title: Using Tortoise Git
 teaching: 10
 exercises: 0
 questions:
