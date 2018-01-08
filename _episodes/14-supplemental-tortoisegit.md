@@ -7,7 +7,7 @@ questions:
 objectives:
 - "Understand how to use Git from Windows Explorer"
 keypoints:
-- "Make a commit using TortoiseGit""
+- "Make a commit using TortoiseGit"
 ---
 
 ![](../fig/tortoisegit-explorer.png)
