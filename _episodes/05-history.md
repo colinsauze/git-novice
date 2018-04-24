@@ -354,6 +354,8 @@ moving backward and forward in time becomes much easier.
 > 4. `$ git checkout <unique ID of last commit> data_cruncher.py`
 >
 > 5. Both 2 and 4
+> > ## Solution
+> > 5g
 {: .challenge}
 
 > ## Reverting a Commit
@@ -377,6 +379,8 @@ moving backward and forward in time becomes much easier.
 > 4. Type in the new commit message.
 >
 > 5. Save and close
+> > ## Solution
+> > git log
 {: .challenge}
 
 > ## Understanding Workflow and History
@@ -479,6 +483,10 @@ moving backward and forward in time becomes much easier.
 > Try another command, `git diff [ID] mars.txt`, where [ID] is replaced with
 > the unique identifier for your most recent commit. What do you think will happen,
 > and what does happen?
+> > ## Solution
+> > Shows the 4th commit.
+
+
 {: .challenge}
 
 > ## Getting Rid of Staged Changes
@@ -487,6 +495,8 @@ moving backward and forward in time becomes much easier.
 > been made, but will it also work for changes that have been staged but not committed?
 > Make a change to `mars.txt`, add that change, and use `git checkout` to see if
 > you can remove your change.
+> > ## Solution
+> > No, It won't remove the changes. git checkout HEAD mars.txt or git checkout -f master will go back. git checkout or git checkout HEAD won't. 
 {: .challenge}
 
 > ## Explore and Summarize Histories
@@ -526,4 +536,7 @@ moving backward and forward in time becomes much easier.
 > $ git log --patch HEAD~3 *.txt
 > ~~~
 > {: .bash}
+> > ## Solution
+> >
+> > git log --patch HEAD~3 *.txt - from that version back
 {: .challenge}
